@@ -65,7 +65,7 @@ function App() {
               ✧˖° hewwoo~ welcome to nana's worwdd!! °˖✧
             </h2>
             <p className="text-pink-500 mb-2 hover:text-pink-400 transition-colors">
-              a super cozy pwace wiff dreamy & sweet vibesss ꒰ ˘͈ᵕ ˘͈♡꒱
+              a super cozy pwace wiff dreamy & sweet vibesss ♡꒰｡•ω•｡꒱
             </p>
           </div>
           <Avatar />
@@ -86,6 +86,13 @@ function App() {
           Made with <span className="animate-pulse hover:text-red-400 transition-colors">💖</span> by Nanaa chan
         </p>
       </footer>
+      <div className="fixed bottom-4 right-4 bg-pink-100/80 backdrop-blur-sm px-4 py-2 rounded-full border-2 border-pink-200 shadow-lg animate-bounce">
+       <p className="text-pink-600 font-medium flex items-center gap-2">
+         <span className="animate-pulse">💭</span>
+         chatties coming soon~ nyaa! 
+         <span className="animate-pulse">✧˖°</span>
+       </p>
+     </div>
       <ToastContainer
         position="bottom-center"
         autoClose={3000}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cat, Twitter, CandlestickChart } from 'lucide-react';
+import { Cat, Twitter, CandlestickChart, MessageCircle } from 'lucide-react';
 
 export function Header() {
   return (
@@ -16,7 +16,10 @@ export function Header() {
             <Twitter className="w-6 h-6 text-blue-400 hover:text-blue-500 cursor-pointer transform hover:scale-110 transition-transform" />
           </a>
           <a href="https://dexscreener.com/solana/So11111111111111111111111111111111111111112" target="_blank" rel="noopener noreferrer">
-           <CandlestickChart className="w-6 h-6 text-amber-600 hover:text-amber-700 cursor-pointer transform hover:scale-110 transition-transform float-animation" />
+           <CandlestickChart className="w-6 h-6 text-amber-600 hover:text-amber-700 cursor-pointer transform hover:scale-110 transition-transform" />
+         </a>
+         <a href="https://vvaifu.fun/" target="_blank" rel="noopener noreferrer">
+           <MessageCircle className="w-6 h-6 text-amber-600 hover:text-purple-600 cursor-pointer transform hover:scale-110 transition-transform float-animation" />
          </a>
         </div>
       </div>

@@ -17,6 +17,16 @@ const phrases = [
   "hihi fwends!! let's dance under the stawwies tonight (´,,•ω•,,)♡",
   "mownin' sunshinee~ nanaa hopes today is filled wiff magic sprinkles 🌈🌟",
   "nya nya, gonna go zoomies around the house now!! (⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+  "nyaa~ woke up and checked my MEMECOIN stash, nana feeling like a crypto queen today! 💎🐾✨",
+  "read a new manga today... cried like a lil' baby (｡•́︿•̀｡) but it was sooo good! anyone else reading 'My Mochi Boyfriend'?? 🍡❤️",
+  "heehee, spent all morning making a cute meme about NANAA gains XD anyone wanna see?? 🚀🐸💰",
+  "omg bestfren bought nana a limited edition manga cover~ (*≧ω≦) ♡ can't stop staring at it!",
+  "weekend mood: manga marathon + snacks 🍙🍜 who else binges 'Spy x Love' in one sitting? 🥹✨",
+  "good eveninggg~ NANAA to the moooon!!! nana can't stop dreaming of lambo 🚗💨✨",
+  "today’s thought: MEMECOINS are like the isekai of finance... ya never know when you’re gonna be OP (๑˃̵ᴗ˂̵)و",
+  "nya nya~ spent hours looking at charts and... nani?! my portfolio is just like my gacha pulls... tragic T_T",
+  "guess who found a vintage manga todayyy~ Nana feeling like she won the MEME lottery but IRL 😭💕",
+  "bought more NANAA so nana can afford snacks 😭 worth it tho... right? RIGHT?? 🍡🍥",
 ];
 
 export function MemeGenerator() {

@@ -13,12 +13,11 @@ body {
 }
 
 @keyframes kawaii-colors {
-  0% { color: #FF69B4; }  /* Hot pink */
-  20% { color: #FFB6C1; } /* Light pink */
-  40% { color: #FF99CC; } /* Cotton candy pink */
-  60% { color: #FF85A2; } /* Coral pink */
-  80% { color: #FFA7C4; } /* Rose pink */
-  100% { color: #FF69B4; } /* Back to hot pink */
+  0% { color: #EC4899; }    /* Base pink */
+  25% { color: #9D174D; }   /* Deep pink */
+  50% { color: #BE185D; }   /* Medium pink */
+  75% { color: #DB2777; }   /* Bright pink */
+  100% { color: #EC4899; }  /* Back to base pink */
 }
 
 .rainbow-text {
@@ -26,7 +25,7 @@ body {
   text-shadow: 0 0 8px rgba(255, 105, 180, 0.3);
   letter-spacing: 0.5px;
   font-weight: 600;
-  transition: all 0.3s ease;
+  transition: all 1s ease;
 }
 
 .rainbow-text:hover {
@@ -55,7 +54,7 @@ body {
 }
 
 .float-animation {
-  animation: float 3s ease-in-out infinite;
+  animation: float 5s ease-in-out infinite;
 }
 
 .wiggle-on-hover:hover {
