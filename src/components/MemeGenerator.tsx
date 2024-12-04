@@ -22,6 +22,7 @@ const phrases = [
 export function MemeGenerator() {
   const [currentPhrase, setCurrentPhrase] = useState(phrases[0]);
   const [key, setKey] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);
 
   const generateRandomPhrase = () => {
     const randomIndex = Math.floor(Math.random() * phrases.length);
