@@ -49,7 +49,7 @@ export function MemeGenerator() {
         }`}
         >
         <Sparkles className="w-5 h-5 group-hover:animate-spin" />
-        Sprinkle Some Adorable Magic 🔮
+        Sprinkle Some Adorable Magic
         <Heart className="w-5 h-5 group-hover:text-red-200" />
       </button>
     </div>

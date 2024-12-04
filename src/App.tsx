@@ -40,23 +40,26 @@ function App() {
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-pink-600 mb-4 hover:text-pink-500 transition-colors">
-              ✧˖° Welcome to Nanaa's World °˖✧
+              ✧˖° hewwoo~ welcome to nana's worwdd!! °˖✧
             </h2>
-            <p className="text-pink-500 mb-2 hover:text-pink-400 transition-colors">
+            {/* <p className="text-pink-500 mb-2 hover:text-pink-400 transition-colors">
               a cozy space for dreamy and sweet vibes 🌸🌙✨
-            </p>
-            <p className="text-pink-500 mb-2 hover:text-pink-400 transition-colors cursor-pointer" onClick={copyToClipboard}>
-              CA: FVdo7CDJarhYoH6McyTFqx71EtzCPViinvdd1v86Qmy5
-            </p>
+            </p> */}
           </div>
           <Avatar />
           <MemeGenerator />
+          <p className="text-pink-500 mb-2 hover:text-pink-400 transition-colors cursor-pointer" onClick={copyToClipboard}>
+              CA: FVdo7CDJarhYoH6McyTFqx71EtzCPViinvdd1v86Qmy5
+          </p>
+          <h2 className="text-3xl font-bold text-pink-600 mb-4 hover:text-pink-500 transition-colors">
+              ꒰ ˘͈ᵕ ˘͈♡꒱
+            </h2>
         </div>
       </main>
       
       <footer className="fixed bottom-4 left-4 text-pink-400 hover:text-pink-500 transition-colors">
         <p className="flex items-center gap-2">
-          Made with <span className="animate-pulse hover:text-red-400 transition-colors">💖</span> by Nanachan
+          Made with <span className="animate-pulse hover:text-red-400 transition-colors">💖</span> by Nanaa chan
         </p>
       </footer>
       <ToastContainer />

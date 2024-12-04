@@ -8,7 +8,7 @@ export function Header() {
         <div className="flex items-center gap-4">
           <Candy className="w-6 h-6 text-pink-400 wiggle-on-hover" />
           <h1 className="text-2xl font-bold text-pink-600 tracking-wider hover:text-pink-500 transition-colors">
-            Nanachan's World
+            Nanaachan's World
           </h1>
         </div>
         <div className="flex items-center gap-4">
