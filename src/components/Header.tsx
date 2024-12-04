@@ -1,5 +1,5 @@
 import React from 'react';
-import { Candy, Twitter, ChartCandlestick } from 'lucide-react';
+import { Candy, Twitter, CandlestickChart } from 'lucide-react';
 
 export function Header() {
   return (
@@ -13,10 +13,10 @@ export function Header() {
         </div>
         <div className="flex items-center gap-4">
           <a href="https://x.com/nanaa_changt" target="_blank" rel="noopener noreferrer">
-            <Twitter className="w-6 h-6 text-blue-400 hover:text-blue-500 cursor-pointer transform hover:scale-110 transition-transform" />
+            <Twitter className="w-6 h-6 text-blue-400 hover:text-blue-500 cursor-pointer transform hover:scale-110 transition-transform float-animation" />
           </a>
           <a href="https://dexscreener.com/solana/So11111111111111111111111111111111111111112" target="_blank" rel="noopener noreferrer">
-           <ChartCandlestick className="w-6 h-6 text-amber-600 hover:text-amber-700 cursor-pointer transform hover:scale-110 transition-transform" />
+           <CandlestickChart className="w-6 h-6 text-amber-600 hover:text-amber-700 cursor-pointer transform hover:scale-110 transition-transform" />
          </a>
         </div>
       </div>
