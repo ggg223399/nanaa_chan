@@ -6,6 +6,11 @@ export default defineConfig({
  optimizeDeps: {
    exclude: ['lucide-react'],
  },
+ resolve: {
+  alias: {
+    'react-toastify': 'react-toastify',
+  },
+},
  build: {
    rollupOptions: {
      external: ['react-toastify'],
