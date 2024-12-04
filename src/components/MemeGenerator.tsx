@@ -17,7 +17,7 @@ const phrases = [
   "hihi fwends!! let's dance under the stawwies tonight (´,,•ω•,,)♡",
   "mownin' sunshinee~ nanaa hopes today is filled wiff magic sprinkles 🌈🌟",
   "nya nya, gonna go zoomies around the house now!! (⁄ ⁄•⁄ω⁄•⁄ ⁄)",
-  "nyaa~ woke up and checked my MEMECOIN stash, nana feeling like a crypto queen today! 💎🐾✨",
+  "nyaa~ woke up and checked my MEME stash, nana feeling like a crypto queen today! 💎🐾✨",
   "read a new manga today... cried like a lil' baby (｡•́︿•̀｡) but it was sooo good! anyone else reading 'My Mochi Boyfriend'?? 🍡❤️",
   "heehee, spent all morning making a cute meme about NANAA gains XD anyone wanna see?? 🚀🐸💰",
   "omg bestfren bought nana a limited edition manga cover~ (*≧ω≦) ♡ can't stop staring at it!",
