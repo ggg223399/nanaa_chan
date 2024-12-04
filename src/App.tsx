@@ -9,7 +9,7 @@ function App() {
   const copyToClipboard = () => {
     const caText = "FVdo7CDJarhYoH6McyTFqx71EtzCPViinvdd1v86Qmy5";
     navigator.clipboard.writeText(caText).then(() => {
-      toast.success("Copied to clipboard!", {
+      toast.success("✧˖° Copied to clipboard! nyaa~ ˎˊ˗", {
         position: "bottom-center",
         autoClose: 3000,
         hideProgressBar: true,
@@ -17,10 +17,21 @@ function App() {
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
-        style: { backgroundColor: '#FDF2F8', color: '#FF69B4' }
+        style: {
+          background: 'rgba(253, 242, 248, 0.95)', // Light pink background
+          color: '#EC4899', // Pink text
+          borderRadius: '1rem',
+          border: '2px solid #FBCFE8',
+          padding: '12px 24px',
+          fontSize: '1rem',
+          fontWeight: '500',
+          boxShadow: '0 4px 6px -1px rgba(251, 207, 232, 0.3)',
+          backdropFilter: 'blur(8px)'
+        },
+        icon: "🌸"
       });
     }).catch(err => {
-      toast.error("Failed to copy!", {
+      toast.error("nyaa~ couldn't copy! (｡•́︿•̀｡)", {
         position: "bottom-center",
         autoClose: 3000,
         hideProgressBar: true,
@@ -28,7 +39,18 @@ function App() {
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
-        style: { backgroundColor: '#FDF2F8', color: '#FF69B4' }
+        style: {
+          background: 'rgba(253, 242, 248, 0.95)',
+          color: '#EC4899',
+          borderRadius: '1rem',
+          border: '2px solid #FBCFE8',
+          padding: '12px 24px',
+          fontSize: '1rem',
+          fontWeight: '500',
+          boxShadow: '0 4px 6px -1px rgba(251, 207, 232, 0.3)',
+          backdropFilter: 'blur(8px)'
+        },
+        icon: "🥀"
       });
     });
   };
@@ -48,12 +70,14 @@ function App() {
           </div>
           <Avatar />
           <MemeGenerator />
-          <p className="text-pink-500 mb-2 hover:text-pink-400 transition-colors cursor-pointer" onClick={copyToClipboard}>
-              CA: FVdo7CDJarhYoH6McyTFqx71EtzCPViinvdd1v86Qmy5
-          </p>
-          <h2 className="text-3xl font-bold text-pink-600 mb-4 hover:text-pink-500 transition-colors">
-              ꒰ ˘͈ᵕ ˘͈♡꒱
+          <div className="text-center mb-8">
+            <p className="rainbow-text text-pink-500 mb-2 hover:text-pink-400 transition-colors cursor-pointer" onClick={copyToClipboard}>
+                CA: FVdo7CDJarhYoH6McyTFqx71EtzCPViinvdd1v86Qmy5
+            </p>
+            <h2 className="text-3xl font-bold text-pink-600 mb-4 hover:text-pink-500 transition-colors">
+                ꒰ ˘͈ᵕ ˘͈♡꒱
             </h2>
+          </div>
         </div>
       </main>
       
@@ -62,7 +86,19 @@ function App() {
           Made with <span className="animate-pulse hover:text-red-400 transition-colors">💖</span> by Nanaa chan
         </p>
       </footer>
-      <ToastContainer />
+      <ToastContainer
+        position="bottom-center"
+        autoClose={3000}
+        hideProgressBar
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+        limit={1}
+      />
     </div>
   );
 }

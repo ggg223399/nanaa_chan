@@ -12,6 +12,20 @@ body {
   background-color: rgba(244, 114, 182, 0.2);
 }
 
+@keyframes rainbow {
+  0% { color: #FF0000; }
+  16% { color: #FF7F00; }
+  33% { color: #FFFF00; }
+  50% { color: #00FF00; }
+  66% { color: #0000FF; }
+  83% { color: #4B0082; }
+  100% { color: #8B00FF; }
+}
+
+.rainbow-text {
+  animation: rainbow 3s linear infinite;
+}
+
 @keyframes float {
   0%, 100% {
     transform: translateY(0);

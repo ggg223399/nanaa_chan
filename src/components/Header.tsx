@@ -1,14 +1,14 @@
 import React from 'react';
-import { Candy, Twitter, CandlestickChart } from 'lucide-react';
+import { Cat, Twitter, CandlestickChart } from 'lucide-react';
 
 export function Header() {
   return (
     <header className="bg-pink-100/80 backdrop-blur-sm fixed w-full top-0 z-50 border-b-2 border-pink-200">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <Candy className="w-6 h-6 text-pink-400 wiggle-on-hover" />
+          <Cat className="w-6 h-6 text-pink-400 wiggle-on-hover" />
           <h1 className="text-2xl font-bold text-pink-600 tracking-wider hover:text-pink-500 transition-colors">
-            Nanaachan's World
+            Nanaa chan
           </h1>
         </div>
         <div className="flex items-center gap-4">
