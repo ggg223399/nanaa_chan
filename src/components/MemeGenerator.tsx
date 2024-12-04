@@ -4,11 +4,11 @@ import { TypingText } from './TypingText';
 import { LoadingSpinner } from './LoadingSpinner';
 
 const phrases = [
+  "hewo fwiends! let's make today NANAAAAAyyy! ✨",
   "gudmoinn!! today hab some yummies sammich 🥪",
   "꒰ ｡• ◡ •｡ ꒱ ♡✧ nanaa go nappy, baiii",
   "✧˖° sending chu lots of love today! ♡",
   "nyaa~ time for some snuggles (｡♥‿♥｡)",
-  "hewo fwiends! let's make today kawaii ✨",
   "hewwo hooman beans!! nanaa made pancake stackies todayy 🥞✨ so yummyyy~",
   "nyoo~ sleepyhead nanaa says goodmownin!! hab a paw-sitive day 🐾💤",
   "sending chu sparkle kisses and fluffy hugs! ✧ (✿◠‿◠) ♡",
