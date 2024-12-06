@@ -74,9 +74,9 @@ function App() {
             <h2 className="text-3xl font-bold text-pink-600 mb-4 hover:text-pink-500 transition-colors">
                 ꒰ ˘͈ᵕ ˘͈♡꒱
             </h2>
-            <p className="rainbow-text text-pink-500 mb-2 hover:text-pink-400 transition-colors cursor-pointer" onClick={copyToClipboard}>
+            {/* <p className="rainbow-text text-pink-500 mb-2 hover:text-pink-400 transition-colors cursor-pointer" onClick={copyToClipboard}>
                 CA: FVdo7CDJarhYoH6McyTFqx71EtzCPViinvdd1v86Qmy5
-            </p>
+            </p> */}
           </div>
         </div>
       </main>

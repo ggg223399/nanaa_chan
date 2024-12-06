@@ -5,7 +5,7 @@ interface TypingTextProps {
   speed?: number;
 }
 
-export function TypingText({ text, speed = 50 }: TypingTextProps) {
+export function TypingText({ text, speed = 25 }: TypingTextProps) {
   const [displayText, setDisplayText] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
 
