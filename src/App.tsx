@@ -62,7 +62,7 @@ function App() {
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-pink-600 mb-4 hover:text-pink-500 transition-colors">
-              ✧˖° hewwoo~ welcome to nana's worwdd!! °˖✧
+              ✧˖° hewwoo~ welcome to nanaa nationn!! °˖✧
             </h2>
             <p className="text-pink-500 mb-2 hover:text-pink-400 transition-colors">
               a super cozy pwace wiff dreamy & sweet vibesss ♡꒰｡•ω•｡꒱
