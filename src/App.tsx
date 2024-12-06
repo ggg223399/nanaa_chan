@@ -83,7 +83,15 @@ function App() {
       
       <footer className="fixed bottom-4 left-4 text-pink-400 hover:text-pink-500 transition-colors">
         <p className="flex items-center gap-2">
-          Made with <span className="animate-pulse hover:text-red-400 transition-colors">💖</span> by Nanaa chan
+          Powered with <span className="animate-pulse hover:text-red-400 transition-colors">💖</span> by{" "}
+          <a 
+            href="https://tophat.one/token/9b22a492-3f76-4602-8dd1-b43c3e4e7680" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="hover:text-pink-400 transition-colors"
+          >
+            Tophat
+          </a>
         </p>
       </footer>
       <div className="fixed bottom-4 right-4 bg-pink-100/80 backdrop-blur-sm px-4 py-2 rounded-full border-2 border-pink-200 shadow-lg animate-bounce">
