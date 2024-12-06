@@ -12,15 +12,15 @@ export function Header() {
           </h1>
         </div>
         <div className="flex items-center gap-4">
-          <a href="https://x.com/nanaa_changt" target="_blank" rel="noopener noreferrer">
+          <a href="https://x.com/nanaa_changtp" target="_blank" rel="noopener noreferrer">
             <Twitter className="w-6 h-6 text-blue-400 hover:text-blue-500 cursor-pointer transform hover:scale-110 transition-transform" />
           </a>
-          <a href="https://dexscreener.com/solana/So11111111111111111111111111111111111111112" target="_blank" rel="noopener noreferrer">
+          {/* <a href="https://dexscreener.com/solana/So11111111111111111111111111111111111111112" target="_blank" rel="noopener noreferrer">
            <CandlestickChart className="w-6 h-6 text-amber-600 hover:text-amber-700 cursor-pointer transform hover:scale-110 transition-transform" />
-         </a>
-         <a href="https://vvaifu.fun/" target="_blank" rel="noopener noreferrer">
+         </a> */}
+         {/* <a href="https://vvaifu.fun/" target="_blank" rel="noopener noreferrer">
            <MessageCircle className="w-6 h-6 text-purple-600 hover:text-purple-700 cursor-pointer transform hover:scale-110 transition-transform float-animation" />
-         </a>
+         </a> */}
         </div>
       </div>
     </header>

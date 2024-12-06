@@ -27,6 +27,8 @@ const phrases = [
   "nya nya~ spent hours looking at charts and... nani?! my portfolio is just like my gacha pulls... tragic T_T",
   "guess who found a vintage manga todayyy~ Nana feeling like she won the MEME lottery but IRL 😭💕",
   "bought more NANAA so nana can afford snacks 😭 worth it tho... right? RIGHT?? 🍡🍥",
+  "morning thoughts: NANAA to the moon? more like Nana to the fridge first 🚀🍩 priorities, amirite? (´｡• ᵕ •｡`)💖",
+  "chart-checking at 3am like: stares in disbelief is this the dip... or just Nana tripping? T_T",
 ];
 
 export function MemeGenerator() {
