@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cat, Twitter, CandlestickChart, MessageCircle, Send } from 'lucide-react';
+import { Cat, Twitter, CandlestickChart, MessageCircle, Send, ChefHat } from 'lucide-react';
 
 export function Header() {
   return (
@@ -22,7 +22,7 @@ export function Header() {
            <CandlestickChart className="w-6 h-6 text-amber-600 hover:text-amber-700 cursor-pointer transform hover:scale-110 transition-transform" />
          </a>
          <a href="https://tophat.one/token/9b22a492-3f76-4602-8dd1-b43c3e4e7680" target="_blank" rel="noopener noreferrer">
-           <MessageCircle className="w-6 h-6 text-purple-600 hover:text-purple-700 cursor-pointer transform hover:scale-110 transition-transform float-animation" />
+           <ChefHat className="w-6 h-6 text-purple-600 hover:text-purple-700 cursor-pointer transform hover:scale-110 transition-transform float-animation" />
          </a>
         </div>
       </div>
