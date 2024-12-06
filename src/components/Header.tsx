@@ -8,7 +8,7 @@ export function Header() {
         <div className="flex items-center gap-4">
           <Cat className="w-6 h-6 text-pink-400 wiggle-on-hover" />
           <h1 className="text-2xl font-bold text-pink-600 tracking-wider hover:text-pink-500 transition-colors">
-            Nanaa chan
+            Nanaa Nation
           </h1>
         </div>
         <div className="flex items-center gap-4">
@@ -16,7 +16,7 @@ export function Header() {
             <Twitter className="w-6 h-6 text-blue-400 hover:text-blue-500 cursor-pointer transform hover:scale-110 transition-transform" />
           </a>
           <a href="https://t.me/nanaa_nation" target="_blank" rel="noopener noreferrer">
-           <MessageCircle className="w-6 h-6 text-blue-400 hover:text-purple-700 cursor-pointer transform hover:scale-110 transition-transform float-animation" />
+           <Send className="w-6 h-6 text-blue-400 hover:text-purple-700 cursor-pointer transform hover:scale-110 transition-transform float-animation" />
          </a>
           {/* <a href="https://dexscreener.com/solana/So11111111111111111111111111111111111111112" target="_blank" rel="noopener noreferrer">
            <CandlestickChart className="w-6 h-6 text-amber-600 hover:text-amber-700 cursor-pointer transform hover:scale-110 transition-transform" />
