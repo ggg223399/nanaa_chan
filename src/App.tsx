@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const copyToClipboard = () => {
-    const caText = "FVdo7CDJarhYoH6McyTFqx71EtzCPViinvdd1v86Qmy5";
+    const caText = "GAatGnJ2GypazBLnXZ6Hm1KBdpkjspT5jMfthb9bchat";
     navigator.clipboard.writeText(caText).then(() => {
       toast.success("✧˖° Copied to clipboard! nyaa~ ˎˊ˗", {
         position: "bottom-center",
